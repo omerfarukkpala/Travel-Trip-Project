@@ -1,0 +1,24 @@
+﻿@model MvcTravelTrip.Models.Classes.Comment
+@{
+    ViewBag.Title = "CommentBring";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Yorum Güncelleme Sayfası</h2>
+<br />
+@using (Html.BeginForm("EditComment", "Admin", FormMethod.Post))
+{
+    <div class="form-group">
+        @Html.HiddenFor(x => x.CommentID)
+        @Html.Label("Kullanıcı Adı")
+        @Html.TextBoxFor(x => x.UserName, new { @class = "form-control" })
+        <br />
+        @Html.Label("Mail Adresi")
+        @Html.TextBoxFor(x => x.Mail, new { @class = "form-control" })
+        <br />
+        @Html.Label("Yorum")
+        @Html.TextAreaFor(x => x.CommentName, 5, 3, new { @class = "form-control" })
+        <br />
+        <button class="btn btn-success">Yorum Güncelle</button>
+    </div>
+}

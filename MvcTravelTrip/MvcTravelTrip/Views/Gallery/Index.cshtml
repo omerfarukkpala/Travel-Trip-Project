@@ -1,0 +1,17 @@
+﻿@model List<MvcTravelTrip.Models.Classes.Blog>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+
+<div class="col-md-4">
+    <div class="img-thumbnail">
+        <div class="about">
+            <h3 align="center">Galeri</h3>
+            @foreach (var item in Model)
+            {
+                <img src="@item.BlogImage" alt="" width="425" height="250" />
+            }
+        </div>
+    </div>
+</div>

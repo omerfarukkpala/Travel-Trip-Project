@@ -1,0 +1,23 @@
+﻿@using MvcTravelTrip.Models.Classes
+@model List<About>
+@{
+    ViewBag.Title = "About";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Hakkımızda</h2>
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Açıklama</th>
+        <th>Güncelle</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.AboutID</td>
+            <td>@item.Description</td>
+            <td><a href="/Admin/AboutBring/@item.AboutID" class="btn btn-warning">Güncelle</a></td>
+        </tr>
+    }
+</table>

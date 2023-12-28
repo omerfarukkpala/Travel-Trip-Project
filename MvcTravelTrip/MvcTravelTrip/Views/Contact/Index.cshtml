@@ -1,0 +1,77 @@
+﻿@model MvcTravelTrip.Models.Classes.Contact
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Free Easy-Trip Website Template | Contact :: w3layouts</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="css/slider.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body>
+    <div class="contact">
+        <div class="wrap">
+            <div class="contact-top">
+                <h2>İletişim Bilgileri</h2>
+                <br />
+                <br />
+                <h3><p>Düşünceleriniz bizim için çok değerli</p></h3>
+            </div>
+
+            @using (Html.BeginForm("Index", "Contact", FormMethod.Post))
+            {
+                <div class="form">
+                    <form method="post">
+                        <div>
+                            <input type="text" name="NameSurname" placeholder="Adınız Soyadınız">
+                        </div>
+                        <div>
+                            <input type="text" name="Mail" placeholder="Mail Adresiniz">
+                        </div>
+                        <div>
+                            <input type="text" name="Subject" placeholder="Konu">
+                        </div>
+
+                        <div class="form1">
+                            <div>
+                                <textarea name="Message" placeholder="Mesajınız..."></textarea>
+                            </div>
+                        </div>
+                        <div>
+                            <input type="submit" value="Gönder" />
+                        </div>
+                    </form>
+                </div>
+
+            }
+            <div class="clear"></div>
+            <div class="contact-bottom">
+                <div class="contact-left">
+                    <div class="contact-add">
+                        <h3>Adres</h3>
+                        <p>İstanbul / Ümraniye / Türkiye</p>
+                        <p>Telefon: +90 1234567890</p>
+                        <p>Email: <a href="mailto:signup@gmail.com">test@gmail.com</a></p>
+                    </div>
+
+                </div>
+
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+</body>
+</html>
