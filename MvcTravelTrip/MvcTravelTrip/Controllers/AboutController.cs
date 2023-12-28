@@ -9,7 +9,7 @@ namespace MvcTravelTrip.Controllers
 {
     public class AboutController : Controller
     {
-        // GET: About
+        // GET: About Controller
         Context c = new Context();
         public ActionResult Index()
         {
