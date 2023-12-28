@@ -9,7 +9,7 @@ namespace MvcTravelTrip.Controllers
 {
     public class BlogController : Controller
     {
-        // GET: Blog
+        // GET: Blog Controller
         Context c = new Context();
         BlogComment bc = new BlogComment();
         // GET: Blog
