@@ -46,7 +46,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <p>
                             @item.Description.Substring(0, 300)...
                         </p>
-                        <a href="/Blog/BlogDetail/@item.BlogID" class="btn btn-primary">Devamını Oku</a>
+                        <a href="/Blog/BlogDetail/@item.BlogID" class="btn btn-primary">Read More</a>
                     </div>
                     <br /><br />
                 }
@@ -55,7 +55,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
             <div class="col-md-4 side-content">
                 <div class="recent">
-                    <h3>Son Bloglar</h3>
+                    <h3>Latest Blogs</h3>
                     @foreach (var item in Model.Value3)
                     {
                         <ul>
@@ -65,7 +65,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
                 </div>
                 <div class="comments">
-                    <h3>Son Yorumlar</h3>
+                    <h3>last Comments</h3>
                     @foreach (var item in Model.Value4)
                     {
                         <ul>
