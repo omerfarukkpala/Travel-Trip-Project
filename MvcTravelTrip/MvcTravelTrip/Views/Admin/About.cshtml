@@ -10,14 +10,14 @@
     <tr>
         <th>ID</th>
         <th>Explanation</th>
-        <th>Güncelle</th>
+        <th>Update</th>
     </tr>
     @foreach (var item in Model)
     {
         <tr>
             <td>@item.AboutID</td>
             <td>@item.Description</td>
-            <td><a href="/Admin/AboutBring/@item.AboutID" class="btn btn-warning">Güncelle</a></td>
+            <td><a href="/Admin/AboutBring/@item.AboutID" class="btn btn-warning">Update</a></td>
         </tr>
     }
 </table>
