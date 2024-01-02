@@ -1,9 +1,9 @@
 ﻿@using MvcTravelTrip.Models.Classes
 @model List<Blog>
 <div class="padding1">
-    <h4>En Beğendiğim Yerler</h4>
+    <h4>Best Places</h4>
     <div class="box-left">
-        @foreach (var item in Model)
+        @foreach (var item in Model.Take(2))
         {
             <div class="bot-img">
                 <img src="@item.BlogImage" style="width:120px; height:65px;" alt="" />
