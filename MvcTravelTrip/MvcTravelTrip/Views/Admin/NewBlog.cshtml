@@ -3,7 +3,7 @@
     ViewBag.Title = "NewBlog";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
-
+<br />
 <h2>Adding a New Blog</h2>
 <br />
 @using (Html.BeginForm("NewBlog", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
@@ -21,6 +21,7 @@
         @Html.Label("Image")
         @*@Html.TextBoxFor(x => x.BlogImage, new { @class = "form-control" })*@
         <input type="file" name="BlogImage" />
+        <br />
         <br />
         @*@Html.LabelFor(x => x.Description)*@
         @Html.Label("Explanation")
