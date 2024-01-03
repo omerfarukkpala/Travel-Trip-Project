@@ -23,3 +23,5 @@
 ![image](https://github.com/omerfarukkpala/CSharp-Runtime/assets/101570820/a11c1c79-5ab5-4952-bf2c-4b4a2a9a76d8)
 # New Blog 
 ![image](https://github.com/omerfarukkpala/CSharp-Runtime/assets/101570820/4ffea092-7f99-427c-aad0-c5a36809465c)
+# Blog 
+![bloggg](https://github.com/omerfarukkpala/CSharp-Runtime/assets/101570820/da7a5d41-96de-4516-86eb-65c271e43c50)
