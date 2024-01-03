@@ -16,3 +16,10 @@
 ![image](https://github.com/omerfarukkpala/CSharp-Runtime/assets/101570820/3684e872-478a-4926-b6fb-88943f00d746)
 ## Admin Management Panel
 ![image](https://github.com/omerfarukkpala/CSharp-Runtime/assets/101570820/1354198a-a435-40cd-aeb5-b4e81d345490)
+## Admin Management 
+# About
+![about](https://github.com/omerfarukkpala/CSharp-Runtime/assets/101570820/bb5736c6-755d-4597-a2d0-d83dcf29ca6e)
+# Blog 
+![image](https://github.com/omerfarukkpala/CSharp-Runtime/assets/101570820/a11c1c79-5ab5-4952-bf2c-4b4a2a9a76d8)
+# New Blog 
+![image](https://github.com/omerfarukkpala/CSharp-Runtime/assets/101570820/4ffea092-7f99-427c-aad0-c5a36809465c)
