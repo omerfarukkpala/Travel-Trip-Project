@@ -3,20 +3,21 @@
     ViewBag.Title = "CommentBring";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
-
+<br />
 <h2>Comment Update Page</h2>
 <br />
 @using (Html.BeginForm("EditComment", "Admin", FormMethod.Post))
 {
     <div class="form-group">
         @Html.HiddenFor(x => x.CommentID)
-        @Html.Label("Kullanıcı Adı")
+        
+        @Html.Label("User Name")
         @Html.TextBoxFor(x => x.UserName, new { @class = "form-control" })
         <br />
-        @Html.Label("Mail Adresi")
+        @Html.Label("Email Address")
         @Html.TextBoxFor(x => x.Mail, new { @class = "form-control" })
         <br />
-        @Html.Label("Yorum")
+        @Html.Label("Comment")
         @Html.TextAreaFor(x => x.CommentName, 5, 3, new { @class = "form-control" })
         <br />
         <button class="btn btn-success">Update Comment</button>
