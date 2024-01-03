@@ -3,18 +3,20 @@
     ViewBag.Title = "AboutBring";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
-
+<br />
 <h2>About Us Update Page</h2>
 <br />
 @using (Html.BeginForm("EditAbout", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
 {
     <div class="form-group">
         @Html.HiddenFor(x => x.AboutID)
-        @Html.Label("Fotoğraf")
+        @Html.Label("Photograph")
+
         @*@Html.TextBoxFor(x => x.PhotoUrl, new { @class = "form-control" })*@
         <input type="file" name="PhotoUrl" />
         <br />
-        @Html.Label("Açıklama")
+        <br />
+        @Html.Label("Explanation")
         @Html.TextBoxFor(x => x.Description, new { @class = "form-control" })
         <br />
         <button class="btn btn-success">Update</button>
