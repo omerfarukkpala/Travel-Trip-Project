@@ -5,4 +5,6 @@
 ![image](https://github.com/omerfarukkpala/CSharp-Runtime/assets/101570820/2a3ef9ac-5e48-4b56-a1d2-5dd3667f0df4)
 ## My Blog
 ![bursaulu](https://github.com/omerfarukkpala/CSharp-Runtime/assets/101570820/52f45d19-9181-42b7-b1a5-1463998fdc60)
+## Contact
+![image](https://github.com/omerfarukkpala/CSharp-Runtime/assets/101570820/0b6a3998-495f-451c-b745-d0c4b0d055c8)
 
