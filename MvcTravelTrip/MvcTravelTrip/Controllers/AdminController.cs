@@ -10,7 +10,7 @@ namespace MvcTravelTrip.Controllers
 {
     public class AdminController : Controller
     {
-        // GET: Admin
+        // GET: Admin Controller
         Context c = new Context();
         [Authorize]
         public ActionResult Index()
