@@ -1,0 +1,26 @@
+﻿@using MvcTravelTrip.Models.Classes
+@model List<About>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+
+<div class="content">
+    <div class="wrap">
+        <div class="about">
+            <br />
+            <h3 align="center">About Us</h3>
+            <h2></h2>
+            @foreach (var item in Model)
+            {
+                <img src="@item.PhotoUrl" alt="" width="1000" height="500" />
+                <p>@item.Description</p>
+            }
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+        </div>
+    </div>
+</div>

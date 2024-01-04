@@ -1,0 +1,90 @@
+﻿@model MvcTravelTrip.Models.Classes.Contact
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Free Easy-Trip Website Template | Contact :: w3layouts</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="css/slider.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body>
+    <style>
+        .custom-button {
+            background-color: #a2365a; /* Yeşil renk */
+            color: white; /* Beyaz renk metin */
+            padding: 15px 32px; /* Yükseklik ve genişlik */
+            text-align: center; /* Metin ortala */
+            text-decoration: none; /* Alt çizgi kaldır */
+            display: inline-block; /* Blok olmayan bir öğe olarak davran */
+            font-size: 16px; /* Metin boyutu */
+            margin: 4px 2px; /* Dış kenar boşluğu */
+            cursor: pointer; /* İmleçi bir el işareti olarak ayarla */
+        }
+    </style>
+    <div class="contact">
+        <div class="wrap">
+            <div class="contact-top">
+                <h2>Contact information</h2>
+                <br />
+                <br />
+                <h3><p>Your thoughts are very valuable</p></h3>
+            </div>
+
+            @using (Html.BeginForm("Index", "Contact", FormMethod.Post))
+            {
+                <div class="form">
+                    <form method="post">
+                        <div>
+                            <input type="text" name="NameSurname" placeholder="Your Name And Your Surname">
+                        </div>
+                        <div>
+                            <input type="text" name="Mail" placeholder="Your Email Address">
+                        </div>
+                        <div>
+                            <input type="text" name="Subject" placeholder="Subject">
+                        </div>
+
+                        <div class="form1">
+                            <div>
+                                <textarea name="Message" placeholder="Your message..."></textarea>
+                            </div>
+                        </div>
+                        <div>
+                            <input class="custom-button" type="submit" value="Send" />
+                        </div>
+                    </form>
+                </div>
+
+            }
+            <div class="clear"></div>
+            <div class="contact-bottom">
+                <div class="contact-left">
+                    <div class="contact-add">
+                        <h3>Address</h3>
+                        <p>Bursa / Türkiye</p>
+                        <p>Telephone: +90 1234567890</p>
+                        <p>E-mail: <a href="mailto:signup@gmail.com">test@gmail.com</a></p>
+                    </div>
+
+                </div>
+
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+</body>
+</html>

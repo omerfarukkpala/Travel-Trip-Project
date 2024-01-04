@@ -1,0 +1,25 @@
+﻿@model MvcTravelTrip.Models.Classes.Comment
+@{
+    ViewBag.Title = "CommentBring";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<br />
+<h2>Comment Update Page</h2>
+<br />
+@using (Html.BeginForm("EditComment", "Admin", FormMethod.Post))
+{
+    <div class="form-group">
+        @Html.HiddenFor(x => x.CommentID)
+        
+        @Html.Label("User Name")
+        @Html.TextBoxFor(x => x.UserName, new { @class = "form-control" })
+        <br />
+        @Html.Label("Email Address")
+        @Html.TextBoxFor(x => x.Mail, new { @class = "form-control" })
+        <br />
+        @Html.Label("Comment")
+        @Html.TextAreaFor(x => x.CommentName, 5, 3, new { @class = "form-control" })
+        <br />
+        <button class="btn btn-success">Update Comment</button>
+    </div>
+}

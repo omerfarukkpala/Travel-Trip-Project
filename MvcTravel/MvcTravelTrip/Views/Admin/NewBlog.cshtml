@@ -1,0 +1,32 @@
+﻿@model MvcTravelTrip.Models.Classes.Blog
+@{
+    ViewBag.Title = "NewBlog";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<br />
+<h2>Adding a New Blog</h2>
+<br />
+@using (Html.BeginForm("NewBlog", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <form class="form-group" method="post">
+        @*@Html.LabelFor(x => x.BlogHeading)*@
+        @Html.Label("Title")
+        @Html.TextBoxFor(x => x.BlogHeading, new { @class = "form-control" })
+        <br />
+        @*@Html.LabelFor(x => x.BlogDate)*@
+        @Html.Label("History")
+        @Html.TextBoxFor(x => x.BlogDate, new { @class = "form-control" })
+        <br />
+        @*@Html.LabelFor(x => x.BlogImage)*@
+        @Html.Label("Image")
+        @*@Html.TextBoxFor(x => x.BlogImage, new { @class = "form-control" })*@
+        <input type="file" name="BlogImage" />
+        <br />
+        <br />
+        @*@Html.LabelFor(x => x.Description)*@
+        @Html.Label("Explanation")
+        @Html.TextAreaFor(x => x.Description, 5, 3, new { @class = "form-control" })
+        <br />
+        <button class="btn btn-primary">Add Blog</button>
+    </form>
+}

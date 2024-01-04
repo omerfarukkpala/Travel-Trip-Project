@@ -1,0 +1,27 @@
+﻿@using MvcTravelTrip.Models.Classes
+@model List<Blog>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<br />
+<h2>Blog List</h2>
+<br />
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>TITLE</th>
+        <th>DELETE</th>
+        <th>UPDATE</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.BlogID</td>
+            <td>@item.BlogHeading</td>
+            <td><a href="/Admin/DeleteBlog/@item.BlogID/" class="btn btn-danger">Delete</a></td>
+            <td><a href="/Admin/BlogBring/@item.BlogID/" class="btn btn-warning">Update</a></td>
+        </tr>
+    }
+</table>
+<a href="/Admin/NewBlog/" class="btn btn-primary">New Blog</a>
