@@ -13,7 +13,7 @@ Ayrıca, **Admin Sayfası** üzerinden şu işlemler gerçekleştirilebilir:
 - Doğrudan sayfaya yönlendirme.
 - Sistemden çıkış yapma seçeneği.
 
-# Travel Trip Project 🌍
+# Travel Trip Project 🌍🚀 🕌 🏰 🍢 🌸 🏞️
 
 The Travel Trip Project is a project created using ASP.NET MVC. This project not only serves as a beautiful memory collection for those who love to travel and explore new places but also acts as a guide for others. The project includes the following elements:
 
