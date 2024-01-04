@@ -1,0 +1,41 @@
+﻿@model List<MvcTravelTrip.Models.Classes.Blog>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+
+<style>
+    .custom-margin {
+        margin-left: 350px;
+        margin-right: 30px;
+    }
+
+    .custom-padding {
+        margin-bottom: 10px;
+    }
+</style>
+
+<div class="col-md-4 text-center custom-margin">
+    <div class="img-thumbnail">
+        <div class="about">
+            <h3>Gallery</h3>
+            @foreach (var item in Model.Take(2))
+            {
+                <img src="@item.BlogImage" alt="" width="750" height="400" class="custom-padding" />
+            }
+        </div>
+    </div>
+</div>
+
+<div class="col-md-2"></div> <!--  boşluk için -->
+
+<div class="col-md-4 text-center custom-margin">
+    <div class="img-thumbnail">
+        <div class="about">
+            @foreach (var item in Model.Skip(2).Take(2))
+            {
+                <img src="@item.BlogImage" alt="" width="750" height="400" class="custom-padding" />
+            }
+        </div>
+    </div>
+</div>

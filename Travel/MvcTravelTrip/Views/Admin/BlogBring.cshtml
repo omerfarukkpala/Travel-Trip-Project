@@ -1,0 +1,32 @@
+﻿@model MvcTravelTrip.Models.Classes.Blog
+@{
+    ViewBag.Title = "BlogBring";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<br />
+<h2>Blog Update Page</h2>
+<br />
+@using (Html.BeginForm("EditBlog", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div class="form-group">
+        @Html.HiddenFor(x => x.BlogID)
+        @*@Html.LabelFor(x => x.BlogHeading)*@
+        @Html.Label("Title")
+        @Html.TextBoxFor(x => x.BlogHeading, new { @class = "form-control" })
+        <br />
+        @*@Html.LabelFor(x => x.BlogDate)*@
+        @Html.Label("Date")
+        @Html.TextBoxFor(x => x.BlogDate, new { @class = "form-control" })
+        <br />
+        @*@Html.LabelFor(x => x.BlogImage)*@
+        @Html.Label("Image")
+        @*@Html.TextBoxFor(x => x.BlogImage, new { @class = "form-control" })*@
+        <input type="file" name="BlogImage" />
+        <br />
+        @*@Html.LabelFor(x => x.Description)*@
+        @Html.Label("Explanation")
+        @Html.TextAreaFor(x => x.Description, 5, 3, new { @class = "form-control" })
+        <br />
+        <button class="btn btn-success">Update Blog</button>
+    </div>
+}
