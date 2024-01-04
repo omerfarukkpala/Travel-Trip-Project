@@ -1,4 +1,40 @@
-## CSharp-Runtime TravelTripProject🚀
+## CSharp-Runtime Travel Trip Project🚀
+**Travel Trip Project**
+Travel Trip Project, ASP.NET MVC kullanılarak oluşturulan bir projedir. Bu proje, seyahat etmeyi ve yeni yerler keşfetmeyi sevenler için güzel bir anı birikimi sunmanın yanı sıra, diğer insanlar için bir rehber niteliğindedir. Projenin içeriği şu unsurları içermektedir:
+
+- **Blog Sayfası:** Bursa'da gidilebilecek bilgilendirici kısa metinler, anı resimleri.
+- **Hakkımda Sayfası:** Proje sahibi hakkında bilgiler.
+- **Rehber Sayfası:** Uygun oteller, tavsiye edilen restoranlar ve mutlaka görülmesi gereken müzeler ile ilgili uygun sayfalara yönlendirme.
+- **İletişim Sayfası:** Ziyaretçilerin admin'e mail gönderme imkanı.
+
+Ayrıca, **Admin Sayfası** üzerinden şu işlemler gerçekleştirilebilir:
+- Gelen yorumları silme ve güncelleme.
+- Yeni blog yazıları ekleme ve var olanları güncelleme.
+- Doğrudan sayfaya yönlendirme.
+- Sistemden çıkış yapma seçeneği.
+
+# Travel Trip Project 🌍
+
+The Travel Trip Project is a project created using ASP.NET MVC. This project not only serves as a beautiful memory collection for those who love to travel and explore new places but also acts as a guide for others. The project includes the following elements:
+
+- **Blog Page:** Informative short texts and memory photos about places to visit in Bursa.
+- **About Me Page:** Information about the project owner.
+- **Guide Page:** Redirects to appropriate pages about suitable hotels, recommended restaurants, and must-visit museums.
+- **Contact Page:** Allows visitors to send an email to the admin.
+
+Additionally, the **Admin Page** allows the following operations:
+- Deleting and updating incoming comments.
+- Adding new blog posts and updating existing ones.
+- Directly redirecting to the page.
+- Logging out of the system.
+
+
+**Technologies:**
+- ASP.NET MVC5
+- Development Approach: Code First
+- ORM Tool: Entity Framework
+- Database: SQL Server
+
 ## Home
 ![image](https://github.com/omerfarukkpala/CSharp-Runtime/assets/101570820/643be622-6cdf-4dc5-93a9-3fadee267426)
 ## About
@@ -29,3 +65,5 @@
 ![image](https://github.com/omerfarukkpala/CSharp-Runtime/assets/101570820/d21d21ac-3b8b-41a2-8ebf-3fb2f61730b4)
 # Comment List
 ![image](https://github.com/omerfarukkpala/CSharp-Runtime/assets/101570820/54cb67df-7552-45a0-ad4b-2d7ff2c48b03)
+# Comment Update 
+![commnet](https://github.com/omerfarukkpala/CSharp-Runtime/assets/101570820/1954152f-447e-4aeb-8c52-30ee2818c087)
