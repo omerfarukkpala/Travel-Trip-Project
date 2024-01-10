@@ -29,7 +29,7 @@ Additionally, the **Admin Page** allows the following operations:
 - Logging out of the system.
 - https://localhost:44354/Admin/About
 - https://localhost:44354/Default/Index/ 
-**Technologies:**
+## **Technologies:**
 - ASP.NET MVC5
 - Development Approach: Code First
 - ORM Tool: Entity Framework
