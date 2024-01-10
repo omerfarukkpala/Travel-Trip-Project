@@ -27,7 +27,7 @@ Additionally, the **Admin Page** allows the following operations:
 - Adding new blog posts and updating existing ones.
 - Directly redirecting to the page.
 - Logging out of the system.
-
+- https://localhost:44354/Admin/About
 
 **Technologies:**
 - ASP.NET MVC5
