@@ -21,7 +21,7 @@ The Travel Trip Project is a project created using ASP.NET MVC. This project not
 - **About Me Page:** Information about the project owner.
 - **Guide Page:** Redirects to appropriate pages about suitable hotels, recommended restaurants, and must-visit museums.
 - **Contact Page:** Allows visitors to send an email to the admin.
-- ### https://localhost:44354/Default/Index/ 
+- #### https://localhost:44354/Default/Index/ 
 Additionally, the **Admin Page** allows the following operations:
 - Deleting and updating incoming comments.
 - Adding new blog posts and updating existing ones.
