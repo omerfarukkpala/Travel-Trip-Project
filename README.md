@@ -5,7 +5,7 @@ Travel Trip Project, ASP.NET MVC kullanılarak oluşturulan bir projedir. Bu pro
 - **Blog Sayfası:** Bursa'da gidilebilecek bilgilendirici kısa metinler, anı resimleri.
 - **Hakkımda Sayfası:** Proje sahibi hakkında bilgiler.
 - **Rehber Sayfası:** Uygun oteller, tavsiye edilen restoranlar ve mutlaka görülmesi gereken müzeler ile ilgili uygun sayfalara yönlendirme.
-- **İletişim Sayfası:** Ziyaretçilerin admin'e mail gönderme imkanı.
+- **İletişim Sayfası:** Ziyaretçilerin admin'e mail gönderme imkanı. 
 
 Ayrıca, **Admin Sayfası** üzerinden şu işlemler gerçekleştirilebilir:
 - Gelen yorumları silme ve güncelleme.
