@@ -6,7 +6,7 @@ Travel Trip Project, ASP.NET MVC kullanılarak oluşturulan bir projedir. Bu pro
 - **Hakkımda Sayfası:** Proje sahibi hakkında bilgiler.
 - **Rehber Sayfası:** Uygun oteller, tavsiye edilen restoranlar ve mutlaka görülmesi gereken müzeler ile ilgili uygun sayfalara yönlendirme.
 - **İletişim Sayfası:** Ziyaretçilerin admin'e mail gönderme imkanı. 
-
+ 
 Ayrıca, **Admin Sayfası** üzerinden şu işlemler gerçekleştirilebilir:
 - Gelen yorumları silme ve güncelleme.
 - Yeni blog yazıları ekleme ve var olanları güncelleme.
