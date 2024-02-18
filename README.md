@@ -10,7 +10,7 @@ Travel Trip Project, ASP.NET MVC kullanılarak oluşturulan bir projedir. Bu pro
 Ayrıca, **Admin Sayfası** üzerinden şu işlemler gerçekleştirilebilir:
 - Gelen yorumları silme ve güncelleme.
 - Yeni blog yazıları ekleme ve var olanları güncelleme.
-- Doğrudan sayfaya yönlendirme.
+- Doğrudan sayfaya yönlendirme. 
 - Sistemden çıkış yapma seçeneği.
 
 # Travel Trip Project 🌍🚀 🕌 🏰 🍢 🌸 🏞️
