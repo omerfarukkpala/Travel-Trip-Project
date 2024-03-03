@@ -1,6 +1,7 @@
 ## CSharp-Runtime Travel Trip Project🚀       
 **Travel Trip Project**  
-Travel Trip Project, ASP.NET MVC kullanılarak oluşturulan bir projedir. Bu proje, seyahat etmeyi ve yeni yerler keşfetmeyi sevenler için güzel bir anı birikimi sunmanın yanı sıra, diğer insanlar için bir rehber niteliğindedir. Projenin içeriği şu unsurları içermektedir:
+Travel Trip Project, ASP.NET MVC kullanılarak oluşturulan bir projedir. Bu proje, seyahat etmeyi ve yeni yerler keşfetmeyi sevenler için güzel bir anı birikimi sunmanın yanı sıra, diğer insanlar için bir rehber niteliğindedir. 
+Ziyaret edilen yerlerin etkileşimli bir şekilde paylaşılmasını ve bu paylaşımların.Projenin içeriği şu unsurları içermektedir:
 
 - **Blog Sayfası:** Bursa'da gidilebilecek bilgilendirici kısa metinler, anı resimleri .
 - **Hakkımda Sayfası:** Proje sahibi hakkında bilgiler.
@@ -12,6 +13,9 @@ Ayrıca, **Admin Sayfası** üzerinden şu işlemler gerçekleştirilebilir:
 - Yeni blog yazıları ekleme ve var olanları güncelleme.
 - Doğrudan sayfaya yönlendirme. 
 - Sistemden çıkış yapma seçeneği.
+- Admin Paneli ile tüm CRUD işlemlerinin yapılması.
+- Güvenli oturum açma sistemi.
+- Esnek veritabanı yapısı.
 
 # Travel Trip Project 🌍🚀 🕌 🏰 🍢 🌸 🏞️
 
@@ -34,7 +38,7 @@ Additionally, the **Admin Page** allows the following operations:
 - Development Approach: Code First
 - ORM Tool: Entity Framework
 - Database: SQL Server
-
+- Frond - End :HTML, Css ,Bootstrap , JS
 ## Home
 ![image](https://github.com/omerfarukkpala/CSharp-Runtime/assets/101570820/643be622-6cdf-4dc5-93a9-3fadee267426)
 ## About
