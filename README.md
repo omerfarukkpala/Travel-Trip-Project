@@ -15,7 +15,7 @@ Ayrıca, **Admin Sayfası** üzerinden şu işlemler gerçekleştirilebilir:
 - Sistemden çıkış yapma seçeneği.
 - Admin Paneli ile tüm CRUD işlemlerinin yapılması.
 - Güvenli oturum açma sistemi.
-- Esnek veritabanı yapısı.
+- Esnek veritabanı yapısı. 
 
 # Travel Trip Project 🌍🚀 🕌 🏰 🍢 🌸 🏞️
 
