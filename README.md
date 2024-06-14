@@ -9,7 +9,7 @@ Ziyaret edilen yerlerin etkileşimli bir şekilde paylaşılmasını ve bu payla
 - **İletişim Sayfası:** Ziyaretçilerin admin'e mail gönderme imkanı.  
  
 Ayrıca, **Admin Sayfası** üzerinden şu işlemler gerçekleştirilebilir:
-- Gelen yorumları silme ve güncelleme. 
+- Gelen yorumları silme ve güncelleme.  
 - Yeni blog yazıları ekleme ve var olanları güncelleme.
 - Doğrudan sayfaya yönlendirme.  
 - Sistemden çıkış yapma seçeneği.
