@@ -11,11 +11,11 @@ Ziyaret edilen yerlerin etkileşimli bir şekilde paylaşılmasını ve bu payla
 Ayrıca, **Admin Sayfası** üzerinden şu işlemler gerçekleştirilebilir: 
 - Gelen yorumları silme ve güncelleme.   
 - Yeni blog yazıları ekleme ve var olanları güncelleme. 
-- Doğrudan sayfaya yönlendirme.  
+- Doğrudan sayfaya yönlendirme.   
 - Sistemden çıkış yapma seçeneği.
 - Admin Paneli ile tüm CRUD işlemlerinin yapılması.
 - Güvenli oturum açma sistemi.
-- Esnek veritabanı yapısı ile  işlem yapma yeteneği. 
+- Esnek veritabanı yapısı kontrolü  ile  işlem yapma yeteneği. 
 
 # Travel Trip Project 🌍🚀 🕌 🏰 🍢 🌸 🏞️
 
